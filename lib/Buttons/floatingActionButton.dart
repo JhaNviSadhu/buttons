@@ -23,9 +23,9 @@ class _FloatingActionButtonDemoState extends State<FloatingActionButtonDemo> {
       context: context,
       position: RelativeRect.fromLTRB(
           MediaQuery.of(context).size.width / 1.5,
-          MediaQuery.of(context).size.height / 1.7,
+          MediaQuery.of(context).size.height / 1.67,
           0.0,
-          25.0), //position where you want to show the menu on screen
+          0.0), //position where you want to show the menu on screen
       items: [
         PopupMenuItem(
           onTap: () {
@@ -92,10 +92,10 @@ class _FloatingActionButtonDemoState extends State<FloatingActionButtonDemo> {
         title: Text(widget.title),
       ),
       floatingActionButton: Padding(
-        padding: const EdgeInsets.only(right: 12),
+        padding: const EdgeInsets.only(right: 20),
         child: Container(
-          height: 80,
-          width: 80,
+          height: 60,
+          width: 60,
           child: FloatingActionButton(
             backgroundColor: Colors.black,
             onPressed: () {
