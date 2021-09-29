@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home%20.dart';
+import 'package:flutter_application_1/routefile.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,10 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: RouteFile(),
     );
   }
 }
