@@ -116,7 +116,7 @@ class CheckBoxList extends StatelessWidget {
                   style: TextStyle(fontSize: 20),
                 ),
                 SizedBox(height: 15),
-                CustomCheckbox(text: "Monday", selected: true),
+                CustomCheckbox(text: "Monday", selected: false),
                 SizedBox(height: 15),
                 CustomCheckbox(text: "Tuesday", selected: true),
                 SizedBox(height: 15),

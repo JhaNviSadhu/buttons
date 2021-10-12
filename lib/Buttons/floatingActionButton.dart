@@ -17,6 +17,7 @@ class _FloatingActionButtonDemoState extends State<FloatingActionButtonDemo> {
 
   popUp() {
     showMenu<String>(
+      
       color: Colors.transparent,
       useRootNavigator: true,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -33,6 +34,7 @@ class _FloatingActionButtonDemoState extends State<FloatingActionButtonDemo> {
               isOpen = !isOpen;
             });
           },
+          
           child: Padding(
             padding: const EdgeInsets.all(10.0),
             child: PopupmenuItem(
